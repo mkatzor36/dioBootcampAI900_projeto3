@@ -2,9 +2,9 @@
 
 Bootcamp da DIO em parceria com a Microsoft, visando a preparação de profissionais para a certificação AI-900.
 
-## Projeto 2: Visão Computacional
+## Projeto 3: Análise de Sentimentos com Language Studio no Azure AI
 
-Neste terceiro desafio de projeto, o objetivo é utilizar as ferramentas de reconhecimento de fala e análise de sentimentos. 
+Neste terceiro desafio de projeto, o objetivo é utilizar as ferramentas de reconhecimento de fala e análise de sentimentos na plataforma Language Studio. 
 
 ## Etapas de Projeto
 
@@ -24,7 +24,7 @@ Selecione a ferramenta "Real-time speech to text" da aba "Speech to text".
 Ao acessar a ferramenta, selecione o idioma de preferência (no caso, foi selecionado Português Brasileiro) e faça o upload do arquivo de áudio a ser analisado. O arquivo JSON está disponível na pasta *outputs*.
 ![06](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/542362cd-5c63-48ed-9c72-420c3162fe64)
 
-### 2. Criando o Workspace no Language Studio
+### 2. Language Studio
 
 Ao acessar o Language Studio (https://language.cognitive.azure.com), será mostrado a seguinte tela. Caso ainda não tenha sido criado um recurso para o Language Studio, selecione a opção "Create a new Language resource in the Azure portal".
 [PRINT]
