@@ -2,7 +2,7 @@
 
 Bootcamp da DIO em parceria com a Microsoft, visando a preparação de profissionais para a certificação AI-900.
 
-## Projeto 3: Análise de Sentimentos com Language Studio no Azure AI
+## Projeto 3: Reconhecimento de Áudio e Análise de Sentimentos
 
 Neste terceiro desafio de projeto, o objetivo é utilizar as ferramentas de reconhecimento de fala e análise de sentimentos na plataforma Language Studio. 
 
@@ -77,9 +77,16 @@ Os idiomas da análise do modelo estão disponíveis abaixo. O idioma detectado 
 | 6 | 1 | 99 | 0 |
 | 7 | 0 | 100 | 0 |
 
-### sss
+Outra ferramenta que pode auxiliar na pesquisa de artigos científicos é a de busca de frases-chave, a fim de otimizar a seleção de artigos a serem consultados em uma revisão bibliográfica. Selecione a ferramenta "Extract key phrases" na aba "Extract information".
+![16](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/d24259ab-d56b-47c7-a3f3-dbf34fe50bca)
 
-### sss
+Faça o upload do arquivo e clique em "Run". Neste exemplo, foi utilizado o mesmo arquivo da análise de sentimentos.
+![17](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/8dbc82b0-1021-428c-8a7c-57e29860426b)
+
+Com isso, é possível ver os resultados de frases-chave do texto. O arquivo JSON está disponível na pasta *outputs*.
+![18](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/20b726f1-2847-4050-ac55-6a1e26532602)
+
+### Outras aplicações: Ferramenta de Tradução no Language Studio
 
 A ferramenta de tradução do Azure pode ser utilizada para ampliar bases de dados e facilitar o acesso de conteúdo científico, ao traduzir artigos que não estejam disponíveis no idioma do leitor e/ou em inglês.
 
