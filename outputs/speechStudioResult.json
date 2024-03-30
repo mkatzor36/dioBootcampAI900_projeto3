@@ -1,0 +1,182 @@
+[
+    {
+        "Id": "50c6975db20d49d6b8409be37906dd36",
+        "RecognitionStatus": 0,
+        "Offset": 14000000,
+        "Duration": 52000000,
+        "Channel": 0,
+        "DisplayText": "Olá testando 123.",
+        "NBest": [
+            {
+                "Confidence": 0.83152515,
+                "Lexical": "olá testando um dois três",
+                "ITN": "olá testando 123",
+                "MaskedITN": "olá testando 123",
+                "Display": "Olá testando 123.",
+                "Words": [
+                    {
+                        "Word": "olá",
+                        "Offset": 14000000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "testando",
+                        "Offset": 26800000,
+                        "Duration": 8400000
+                    },
+                    {
+                        "Word": "um",
+                        "Offset": 41200000,
+                        "Duration": 4800000
+                    },
+                    {
+                        "Word": "dois",
+                        "Offset": 49200000,
+                        "Duration": 6800000
+                    },
+                    {
+                        "Word": "três",
+                        "Offset": 60000000,
+                        "Duration": 6000000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.83152515,
+                "Lexical": "olá testando um dois três",
+                "ITN": "olá testando um dois três",
+                "MaskedITN": "olá testando um dois três",
+                "Display": "olá testando um dois três",
+                "Words": [
+                    {
+                        "Word": "olá",
+                        "Offset": 14000000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "testando",
+                        "Offset": 26800000,
+                        "Duration": 8400000
+                    },
+                    {
+                        "Word": "um",
+                        "Offset": 41200000,
+                        "Duration": 4800000
+                    },
+                    {
+                        "Word": "dois",
+                        "Offset": 49200000,
+                        "Duration": 6800000
+                    },
+                    {
+                        "Word": "três",
+                        "Offset": 60000000,
+                        "Duration": 6400000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.83152515,
+                "Lexical": "olá testando um dois três",
+                "ITN": "olá testando um dois três",
+                "MaskedITN": "olá testando um dois três",
+                "Display": "olá testando um dois três",
+                "Words": [
+                    {
+                        "Word": "olá",
+                        "Offset": 14000000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "testando",
+                        "Offset": 26800000,
+                        "Duration": 8400000
+                    },
+                    {
+                        "Word": "um",
+                        "Offset": 41200000,
+                        "Duration": 4800000
+                    },
+                    {
+                        "Word": "dois",
+                        "Offset": 49200000,
+                        "Duration": 6800000
+                    },
+                    {
+                        "Word": "três",
+                        "Offset": 60000000,
+                        "Duration": 6400000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.83152515,
+                "Lexical": "olá testando um dois três",
+                "ITN": "olá testando um dois três",
+                "MaskedITN": "olá testando um dois três",
+                "Display": "olá testando um dois três",
+                "Words": [
+                    {
+                        "Word": "olá",
+                        "Offset": 14000000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "testando",
+                        "Offset": 26800000,
+                        "Duration": 8400000
+                    },
+                    {
+                        "Word": "um",
+                        "Offset": 41200000,
+                        "Duration": 4800000
+                    },
+                    {
+                        "Word": "dois",
+                        "Offset": 49200000,
+                        "Duration": 6800000
+                    },
+                    {
+                        "Word": "três",
+                        "Offset": 60000000,
+                        "Duration": 6400000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.83152515,
+                "Lexical": "olá testando um dois três",
+                "ITN": "olá testando um dois três",
+                "MaskedITN": "olá testando um dois três",
+                "Display": "olá testando um dois três",
+                "Words": [
+                    {
+                        "Word": "olá",
+                        "Offset": 14000000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "testando",
+                        "Offset": 26800000,
+                        "Duration": 8400000
+                    },
+                    {
+                        "Word": "um",
+                        "Offset": 41200000,
+                        "Duration": 4800000
+                    },
+                    {
+                        "Word": "dois",
+                        "Offset": 49200000,
+                        "Duration": 6800000
+                    },
+                    {
+                        "Word": "três",
+                        "Offset": 60000000,
+                        "Duration": 6400000
+                    }
+                ]
+            }
+        ]
+    }
+]

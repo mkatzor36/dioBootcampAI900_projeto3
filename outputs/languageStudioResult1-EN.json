@@ -1,0 +1,161 @@
+{
+    "documents": [
+        {
+            "id": "id__3707",
+            "sentiment": "positive",
+            "confidenceScores": {
+                "positive": 0.57,
+                "neutral": 0.41,
+                "negative": 0.02
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.57,
+                        "neutral": 0.41,
+                        "negative": 0.02
+                    },
+                    "offset": 0,
+                    "length": 130,
+                    "text": "Abstract: The searching of ideal bone repair materials has always been one of the research hot spots in the field of orthopedics. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.99,
+                        "negative": 0.01
+                    },
+                    "offset": 130,
+                    "length": 86,
+                    "text": "Natural bones are nanocomposites mainly composed of nano-hydroxyapatite and collagen. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.98,
+                        "negative": 0.01
+                    },
+                    "offset": 216,
+                    "length": 183,
+                    "text": "Nano-hydroxyapatite/polymer composites, derived from imitation of natural hard tissue, combine polymer matrix with high toughness and nano-hydroxyapatite crystals with high rigidity. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.14,
+                        "neutral": 0.85,
+                        "negative": 0.01
+                    },
+                    "offset": 399,
+                    "length": 91,
+                    "text": "These nanocomposites have high toughness since they maximize the complementary advantages. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.97,
+                        "negative": 0.01
+                    },
+                    "offset": 490,
+                    "length": 194,
+                    "text": "Structure factors are equally important to composition for the high performance of these composites, which include architectural organization and controlled orientation in different dimensions. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.99,
+                        "negative": 0
+                    },
+                    "offset": 684,
+                    "length": 152,
+                    "text": "Nano-hydroxyapatite/polymer composite materials have become a research hot spot and development direction in the field of bone tissue repair materials. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.98,
+                        "negative": 0.01
+                    },
+                    "offset": 836,
+                    "length": 197,
+                    "text": "This paper summarizes the research progress and status in the aspects of preparation and properties of these materials used for the repair of body hard tissue, and predicts its future development.\r\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.98,
+                        "negative": 0.01
+                    },
+                    "offset": 1033,
+                    "length": 31,
+                    "text": "Key words: nano-hydroxyapatite; ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.09,
+                        "neutral": 0.9,
+                        "negative": 0.01
+                    },
+                    "offset": 1064,
+                    "length": 13,
+                    "text": "bone repair; ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.98,
+                        "negative": 0.01
+                    },
+                    "offset": 1077,
+                    "length": 10,
+                    "text": "polymers; ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.96,
+                        "negative": 0.01
+                    },
+                    "offset": 1087,
+                    "length": 10,
+                    "text": "composites",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
