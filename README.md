@@ -24,23 +24,64 @@ Selecione a ferramenta "Real-time speech to text" da aba "Speech to text".
 Ao acessar a ferramenta, selecione o idioma de preferência (no caso, foi selecionado Português Brasileiro) e faça o upload do arquivo de áudio a ser analisado. O arquivo JSON está disponível na pasta *outputs*.
 ![06](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/542362cd-5c63-48ed-9c72-420c3162fe64)
 
+Uma possibilidade de aplicação desse recurso consiste em transcrever conteúdos educacionais (como vídeo-aulas) que não estejam disponíveis em um idioma que a pessoa compreenda. Em conjunto com uma ferramenta de tradução, isso pode ampliar o acesso educacional em diferentes áreas.
+
 ### 2. Language Studio
 
-Ao acessar o Language Studio (https://language.cognitive.azure.com), será mostrado a seguinte tela. Caso ainda não tenha sido criado um recurso para o Language Studio, selecione a opção "Create a new Language resource in the Azure portal".
-[PRINT]
+Ao acessar o portal do Azure, vá em "Create a resource" e procure pelo serviço de linguagem na categoria "AI + Machine Learning". 
+![07](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/66e20663-a61e-4e22-b819-50ed3de4f4b0)
 
-Ao ser redirecionado ao portal do Azure, selecione a opção "Create".
-[PRINT]
+Insira os dados do novo recurso e selecione a opção "Free F0" em "Pricing tier". Espere a conclusão do deployment.
+![08](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/ddc72f5b-6659-4206-84e1-6ced5cbb0b1c)
+![09](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/91c4c5b3-cf26-488c-953d-ec9db34bb11f)
 
+No Language Studio (https://language.cognitive.azure.com/), crie o recurso para acessar as ferramentas.
+![10](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/200e9361-ca9c-4514-93dd-89dd793d3c86)
 
+Selecione a ferramenta "Analyze sentiment and mine opinions" da aba "Classify text".
+![11](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/0ddb171c-7067-4f63-9e9c-48c25583db9d)
 
+Uma possibilidade de aplicação dessa ferramenta é a análise de artigos científicos. Ao analisar o resumo e/ou a conclusão, o modelo poderia retornar se os resultados do estudo foram positivos ou negativos, permitindo ao pesquisador classificar os artigos conforme os seus resultados, otimizando as etapas de pesquisa de referências e de revisão da literatura de trabalhos acadêmicos. Para o seguinte teste, foi utilizado o arquivo *languageStudioTest1-EN.txt*, que contém o resumo de um artigo da revista Progress in Chemistry.
+![12](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/f4bf979a-4db8-42f3-8037-fa1cc549b602)
 
+Os resultados da análise do modelo estão disponíveis abaixo. O arquivo JSON dos resultados está disponível na pasta *outputs*.
+![13](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/aaf15703-7941-4181-9c70-699a3aa27f33)
 
-### 3. Language Studio
+| Sentence | Positive (%) | Neutral (%) | Negative (%) |
+|---|---|---|---|
+| 1 | 57 | 41 | 2 |
+| 2 | 1 | 99 | 1 |
+| 3 | 1 | 98 | 1 |
+| 4 | 14 | 85 | 1 |
+| 5 | 2 | 97 | 1 |
+| 6 | 1 | 99 | 0 |
+| 7 | 2 | 98 | 1 |
+| 8 | 0 | 98 | 1 |
+| 9 | 9 | 90 | 1 |
+| 10 | 1 | 98 | 1 |
+| 11 | 2 | 96 | 1 |
 
-### 4. Ferramenta de Tradução
+Em seguida, foi realizado a análise do resumo no idioma original do artigo, utilizando o arquivo *languageStudioTest1-CN.txt*.
+![14](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/d23c3ca5-f225-47c0-9124-fa62d53edda7)
 
-A ferramenta de tradução do Azure pode ser utilizada para ampliar bases de dados e facilitar o acesso de conteúdo científico, ao traduzir artigos que não estejam disponíveis no idioma do leitor e/ou em inglês. Neste exemplo, foi utilizado o resumo de um artigo da revista *Progress in Chemistry*, disponibilizado em mandarim.
+Os idiomas da análise do modelo estão disponíveis abaixo. O idioma detectado foi o Chinês Simplificado. O arquivo JSON dos resultados está disponível na pasta *outputs*.
+![15](https://github.com/mkatzor36/dioBootcampAI900_projeto3/assets/54877987/2d658f4a-0bef-4021-9dfb-37a8fa3186cc)
+
+| Sentence | Positive (%) | Neutral (%) | Negative (%) |
+|---|---|---|---|
+| 1 | 79 | 20 | 1 |
+| 2 | 0 | 100 | 0 |
+| 3 | 0 | 100 | 0 |
+| 4 | 0 | 97 | 2 |
+| 5 | 3 | 97 | 0 |
+| 6 | 1 | 99 | 0 |
+| 7 | 0 | 100 | 0 |
+
+### sss
+
+### sss
+
+A ferramenta de tradução do Azure pode ser utilizada para ampliar bases de dados e facilitar o acesso de conteúdo científico, ao traduzir artigos que não estejam disponíveis no idioma do leitor e/ou em inglês.
 
 ## Referências
 
